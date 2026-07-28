@@ -1,0 +1,69 @@
+{
+  "brand": {
+    "name": "ETERNA Water"
+  },
+  "nav": {
+    "home": "Home",
+    "store": "Store",
+    "care": "ETERNA Care",
+    "parts": "Filters & Parts",
+    "myEterna": "My ETERNA",
+    "support": "Technical Support",
+    "community": "ETERNA Universe",
+    "settings": "Settings"
+  },
+  "home": {
+    "title": "Welcome to ETERNA Water",
+    "subtitle": "Manage your device, your filters, and your support in one place.",
+    "placeholderNotice": "This section is under construction."
+  },
+  "store": {
+    "title": "ETERNA Store",
+    "description": "Buy your ideal device and try the smart configurator.",
+    "models": "Models",
+    "configurator": "Configurator",
+    "payment": "Payment methods"
+  },
+  "care": {
+    "title": "ETERNA Care Subscription",
+    "description": "Maintenance plans and recurring benefits.",
+    "basic": "Basic Plan",
+    "premium": "Premium Plan",
+    "business": "Business Plan"
+  },
+  "parts": {
+    "title": "Filters & Parts Center",
+    "description": "Water filters, air filters, spare parts, and kits.",
+    "waterFilters": "Water filters",
+    "airFilters": "Air filters",
+    "spareParts": "Spare parts",
+    "kits": "Kits"
+  },
+  "myEterna": {
+    "title": "My ETERNA",
+    "description": "Register your device with a QR code and track its status.",
+    "scanQr": "Scan my device's QR",
+    "deviceInfo": "Device information",
+    "alerts": "Alerts"
+  },
+  "support": {
+    "title": "Technical Support",
+    "description": "Chat, tickets, video calls, and help library.",
+    "chat": "Chat",
+    "tickets": "Tickets",
+    "videoCall": "Video call",
+    "library": "Video library"
+  },
+  "community": {
+    "title": "ETERNA Universe",
+    "description": "Your environmental impact and the ETERNA community.",
+    "impact": "Environmental impact",
+    "stories": "Community"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "notifications": "Notifications",
+    "account": "Account & privacy"
+  }
+}

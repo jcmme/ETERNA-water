@@ -1,0 +1,69 @@
+{
+  "brand": {
+    "name": "ETERNA Water"
+  },
+  "nav": {
+    "home": "Inicio",
+    "store": "Tienda",
+    "care": "ETERNA Care",
+    "parts": "Filtros y Refacciones",
+    "myEterna": "Mi ETERNA",
+    "support": "Soporte Técnico",
+    "community": "Universo ETERNA",
+    "settings": "Configuración"
+  },
+  "home": {
+    "title": "Bienvenido a ETERNA Water",
+    "subtitle": "Gestiona tu equipo, tus filtros y tu soporte desde un solo lugar.",
+    "placeholderNotice": "Esta sección está en construcción."
+  },
+  "store": {
+    "title": "Tienda ETERNA",
+    "description": "Compra tu equipo ideal y descubre el configurador inteligente.",
+    "models": "Modelos",
+    "configurator": "Configurador",
+    "payment": "Métodos de pago"
+  },
+  "care": {
+    "title": "Suscripción ETERNA Care",
+    "description": "Planes de mantenimiento y beneficios recurrentes.",
+    "basic": "Plan Básico",
+    "premium": "Plan Premium",
+    "business": "Plan Empresarial"
+  },
+  "parts": {
+    "title": "Centro de Filtros y Refacciones",
+    "description": "Filtros de agua, filtros de aire, refacciones y kits.",
+    "waterFilters": "Filtros de agua",
+    "airFilters": "Filtros de aire",
+    "spareParts": "Refacciones",
+    "kits": "Kits"
+  },
+  "myEterna": {
+    "title": "Mi ETERNA",
+    "description": "Registra tu equipo con QR y da seguimiento a su estado.",
+    "scanQr": "Escanear QR de mi equipo",
+    "deviceInfo": "Información del equipo",
+    "alerts": "Alertas"
+  },
+  "support": {
+    "title": "Soporte Técnico",
+    "description": "Chat, tickets, videollamadas y biblioteca de ayuda.",
+    "chat": "Chat",
+    "tickets": "Tickets",
+    "videoCall": "Videollamada",
+    "library": "Biblioteca de videos"
+  },
+  "community": {
+    "title": "Universo ETERNA",
+    "description": "Tu impacto ambiental y la comunidad ETERNA.",
+    "impact": "Impacto ambiental",
+    "stories": "Comunidad"
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma",
+    "notifications": "Notificaciones",
+    "account": "Cuenta y privacidad"
+  }
+}
