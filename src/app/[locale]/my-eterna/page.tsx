@@ -1,5 +1,6 @@
+import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
-import { PagePlaceholder } from "@/components/page-placeholder";
+import { MyEternaPanel } from "@/components/my-eterna/my-eterna-panel";
 
 export default async function MyEternaPage({
   params,
@@ -9,10 +10,24 @@ export default async function MyEternaPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
+  return <MyEternaContent />;
+}
+
+function MyEternaContent() {
+  const t = useTranslations("myEterna");
+
   return (
-    <PagePlaceholder
-      namespace="myEterna"
-      chips={["scanQr", "deviceInfo", "alerts"]}
-    />
+    <div className="flex flex-col gap-8">
+      <div>
+        <h1 className="text-2xl font-semibold text-[var(--color-foreground)]">
+          {t("title")}
+        </h1>
+        <p className="mt-1 max-w-xl text-[var(--color-muted)]">
+          {t("description")}
+        </p>
+      </div>
+
+      <MyEternaPanel />
+    </div>
   );
 }

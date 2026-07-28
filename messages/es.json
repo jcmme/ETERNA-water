@@ -75,7 +75,22 @@
     "description": "Planes de mantenimiento y beneficios recurrentes.",
     "basic": "Plan Básico",
     "premium": "Plan Premium",
-    "business": "Plan Empresarial"
+    "business": "Plan Empresarial",
+    "priceTbd": "Precio: próximamente",
+    "ctaSoon": "Próximamente",
+    "recommendedBadge": "Más popular",
+    "features": {
+      "filterReminder": "Recordatorio de filtros",
+      "digitalWarranty": "Garantía digital",
+      "prioritySupport": "Soporte prioritario",
+      "autoFilterShipping": "Envío automático anual de filtros",
+      "partsDiscount": "Descuento en refacciones",
+      "warrantyExtension": "Extensión de garantía",
+      "remoteDiagnostics": "Diagnóstico remoto",
+      "scheduledMaintenance": "Mantenimiento programado",
+      "filterInventory": "Inventario de filtros",
+      "support247": "Soporte 24/7"
+    }
   },
   "parts": {
     "title": "Centro de Filtros y Refacciones",
@@ -90,15 +105,57 @@
     "description": "Registra tu equipo con QR y da seguimiento a su estado.",
     "scanQr": "Escanear QR de mi equipo",
     "deviceInfo": "Información del equipo",
-    "alerts": "Alertas"
+    "alerts": "Alertas",
+    "registerForm": {
+      "intro": "El escaneo de QR con cámara llega pronto — por ahora registra tu equipo capturando los datos de la caja o la etiqueta.",
+      "model": "Modelo",
+      "serialNumber": "Número de serie",
+      "serialPlaceholder": "Ej. ETW-000123",
+      "purchaseDate": "Fecha de compra",
+      "submit": "Registrar equipo",
+      "reset": "Eliminar registro"
+    },
+    "warranty": {
+      "active": "Garantía activa · {days} días restantes",
+      "expired": "Garantía vencida"
+    },
+    "alertTasks": {
+      "waterFilter": "Cambiar filtro de agua",
+      "airFilter": "Cambiar filtro de aire",
+      "uv": "Revisar UV",
+      "preventive": "Servicio preventivo"
+    },
+    "alertsDisclaimer": "Fechas estimadas según ciclos de mantenimiento recomendados a partir de tu fecha de compra; no reemplazan el monitoreo en tiempo real (próximamente)."
   },
   "support": {
     "title": "Soporte Técnico",
     "description": "Chat, tickets, videollamadas y biblioteca de ayuda.",
     "chat": "Chat",
+    "chatDescription": "WhatsApp integrado y Chat IA ETERNA para resolver dudas al instante.",
     "tickets": "Tickets",
     "videoCall": "Videollamada",
-    "library": "Biblioteca de videos"
+    "videoCallDescription": "Agenda asistencia en vivo con un especialista ETERNA.",
+    "library": "Biblioteca de videos",
+    "ctaSoon": "Próximamente",
+    "ticketForm": {
+      "problemType": "Tipo de problema",
+      "problems": {
+        "noWater": "No produce agua",
+        "lowOutput": "Produce poco",
+        "badTaste": "Agua con sabor extraño",
+        "filterChange": "Cambio de filtros",
+        "warranty": "Garantía"
+      },
+      "description": "Descripción",
+      "descriptionPlaceholder": "Cuéntanos qué está pasando con tu equipo...",
+      "submit": "Crear ticket"
+    },
+    "videoTopics": {
+      "filterChange": "Cambio de filtros",
+      "cleaning": "Limpieza",
+      "maintenance": "Mantenimiento",
+      "troubleshooting": "Solución de fallas"
+    }
   },
   "community": {
     "title": "Universo ETERNA",

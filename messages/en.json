@@ -75,7 +75,22 @@
     "description": "Maintenance plans and recurring benefits.",
     "basic": "Basic Plan",
     "premium": "Premium Plan",
-    "business": "Business Plan"
+    "business": "Business Plan",
+    "priceTbd": "Price: coming soon",
+    "ctaSoon": "Coming soon",
+    "recommendedBadge": "Most popular",
+    "features": {
+      "filterReminder": "Filter reminders",
+      "digitalWarranty": "Digital warranty",
+      "prioritySupport": "Priority support",
+      "autoFilterShipping": "Automatic yearly filter shipping",
+      "partsDiscount": "Discount on spare parts",
+      "warrantyExtension": "Warranty extension",
+      "remoteDiagnostics": "Remote diagnostics",
+      "scheduledMaintenance": "Scheduled maintenance",
+      "filterInventory": "Filter inventory",
+      "support247": "24/7 support"
+    }
   },
   "parts": {
     "title": "Filters & Parts Center",
@@ -90,15 +105,57 @@
     "description": "Register your device with a QR code and track its status.",
     "scanQr": "Scan my device's QR",
     "deviceInfo": "Device information",
-    "alerts": "Alerts"
+    "alerts": "Alerts",
+    "registerForm": {
+      "intro": "Camera QR scanning is coming soon — for now, register your device using the details from the box or the device label.",
+      "model": "Model",
+      "serialNumber": "Serial number",
+      "serialPlaceholder": "E.g. ETW-000123",
+      "purchaseDate": "Purchase date",
+      "submit": "Register device",
+      "reset": "Remove registration"
+    },
+    "warranty": {
+      "active": "Warranty active · {days} days left",
+      "expired": "Warranty expired"
+    },
+    "alertTasks": {
+      "waterFilter": "Change water filter",
+      "airFilter": "Change air filter",
+      "uv": "Check UV lamp",
+      "preventive": "Preventive service"
+    },
+    "alertsDisclaimer": "Estimated dates based on recommended maintenance cycles from your purchase date; they don't replace real-time monitoring (coming soon)."
   },
   "support": {
     "title": "Technical Support",
     "description": "Chat, tickets, video calls, and help library.",
     "chat": "Chat",
+    "chatDescription": "Integrated WhatsApp and ETERNA AI Chat to solve questions instantly.",
     "tickets": "Tickets",
     "videoCall": "Video call",
-    "library": "Video library"
+    "videoCallDescription": "Schedule live assistance with an ETERNA specialist.",
+    "library": "Video library",
+    "ctaSoon": "Coming soon",
+    "ticketForm": {
+      "problemType": "Problem type",
+      "problems": {
+        "noWater": "Not producing water",
+        "lowOutput": "Low output",
+        "badTaste": "Strange water taste",
+        "filterChange": "Filter change",
+        "warranty": "Warranty"
+      },
+      "description": "Description",
+      "descriptionPlaceholder": "Tell us what's happening with your device...",
+      "submit": "Create ticket"
+    },
+    "videoTopics": {
+      "filterChange": "Filter change",
+      "cleaning": "Cleaning",
+      "maintenance": "Maintenance",
+      "troubleshooting": "Troubleshooting"
+    }
   },
   "community": {
     "title": "ETERNA Universe",
