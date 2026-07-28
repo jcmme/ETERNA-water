@@ -94,11 +94,40 @@
   },
   "parts": {
     "title": "Centro de Filtros y Refacciones",
-    "description": "Filtros de agua, filtros de aire, refacciones y kits.",
+    "description": "Filtros de agua, filtros de aire, refacciones, kits y accesorios.",
     "waterFilters": "Filtros de agua",
     "airFilters": "Filtros de aire",
     "spareParts": "Refacciones",
-    "kits": "Kits"
+    "kits": "Kits",
+    "ctaSoon": "Próximamente",
+    "moreComingSoon": "Más accesorios, próximamente",
+    "categories": {
+      "waterFilters": "Filtros de agua",
+      "airFilters": "Filtros de aire",
+      "spareParts": "Refacciones",
+      "kits": "Kits",
+      "accessories": "Accesorios"
+    },
+    "items": {
+      "activatedCarbon": "Carbón activado",
+      "zeolite": "Zeolita",
+      "remineralizingCartridge": "Cartucho remineralizador",
+      "prefilters": "Prefiltros",
+      "g4": "Filtro G4",
+      "merv": "Filtro MERV",
+      "hepa": "Filtro HEPA",
+      "fans": "Ventiladores",
+      "sensors": "Sensores",
+      "uv": "UV",
+      "pumps": "Bombas",
+      "powerSupplies": "Fuentes de alimentación",
+      "annual": "Kit anual",
+      "biannual": "Kit bianual",
+      "premium": "Kit premium",
+      "coffeeAttachment": "Accesorio para café",
+      "sodaDispenser": "Dispensador de refresco",
+      "brandedBottle": "Botella ETERNA"
+    }
   },
   "myEterna": {
     "title": "Mi ETERNA",
@@ -161,7 +190,22 @@
     "title": "Universo ETERNA",
     "description": "Tu impacto ambiental y la comunidad ETERNA.",
     "impact": "Impacto ambiental",
-    "stories": "Comunidad"
+    "stories": "Comunidad",
+    "ctaSoon": "Próximamente",
+    "impactEmptyState": "Registra tu equipo en Mi ETERNA para ver tu impacto ambiental estimado.",
+    "impactEmptyCta": "Ir a Mi ETERNA",
+    "impactDisclaimer": "Estimación calculada con la capacidad de tu modelo y el tiempo desde tu compra; no es una medición en tiempo real (próximamente).",
+    "stats": {
+      "litersProduced": "Litros generados",
+      "garrafonesAvoided": "Garrafones evitados",
+      "bottlesAvoided": "Botellas evitadas",
+      "co2Avoided": "CO₂ evitado (kg)"
+    },
+    "storyTopics": {
+      "userStories": "Historias de usuarios",
+      "successCases": "Casos de éxito",
+      "news": "Noticias ETERNA"
+    }
   },
   "settings": {
     "title": "Configuración",

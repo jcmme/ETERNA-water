@@ -94,11 +94,40 @@
   },
   "parts": {
     "title": "Filters & Parts Center",
-    "description": "Water filters, air filters, spare parts, and kits.",
+    "description": "Water filters, air filters, spare parts, kits, and accessories.",
     "waterFilters": "Water filters",
     "airFilters": "Air filters",
     "spareParts": "Spare parts",
-    "kits": "Kits"
+    "kits": "Kits",
+    "ctaSoon": "Coming soon",
+    "moreComingSoon": "More accessories, coming soon",
+    "categories": {
+      "waterFilters": "Water filters",
+      "airFilters": "Air filters",
+      "spareParts": "Spare parts",
+      "kits": "Kits",
+      "accessories": "Accessories"
+    },
+    "items": {
+      "activatedCarbon": "Activated carbon",
+      "zeolite": "Zeolite",
+      "remineralizingCartridge": "Remineralizing cartridge",
+      "prefilters": "Pre-filters",
+      "g4": "G4 filter",
+      "merv": "MERV filter",
+      "hepa": "HEPA filter",
+      "fans": "Fans",
+      "sensors": "Sensors",
+      "uv": "UV lamp",
+      "pumps": "Pumps",
+      "powerSupplies": "Power supplies",
+      "annual": "Annual kit",
+      "biannual": "Biannual kit",
+      "premium": "Premium kit",
+      "coffeeAttachment": "Coffee attachment",
+      "sodaDispenser": "Soda dispenser attachment",
+      "brandedBottle": "ETERNA branded bottle"
+    }
   },
   "myEterna": {
     "title": "My ETERNA",
@@ -161,7 +190,22 @@
     "title": "ETERNA Universe",
     "description": "Your environmental impact and the ETERNA community.",
     "impact": "Environmental impact",
-    "stories": "Community"
+    "stories": "Community",
+    "ctaSoon": "Coming soon",
+    "impactEmptyState": "Register your device in My ETERNA to see your estimated environmental impact.",
+    "impactEmptyCta": "Go to My ETERNA",
+    "impactDisclaimer": "Estimate calculated from your model's capacity and time since purchase; not a real-time measurement (coming soon).",
+    "stats": {
+      "litersProduced": "Liters produced",
+      "garrafonesAvoided": "Water jugs avoided",
+      "bottlesAvoided": "Bottles avoided",
+      "co2Avoided": "CO₂ avoided (kg)"
+    },
+    "storyTopics": {
+      "userStories": "User stories",
+      "successCases": "Success cases",
+      "news": "ETERNA news"
+    }
   },
   "settings": {
     "title": "Settings",
