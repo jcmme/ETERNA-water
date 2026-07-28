@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ETERNA Water — App
 
-## Getting Started
+App oficial de clientes de ETERNA Water (equipos generadores de agua atmosférica y purificación de aire). Ver el detalle completo de funcionalidades planeadas en [`ETERNA_APP_SPEC.md`](./ETERNA_APP_SPEC.md).
 
-First, run the development server:
+- **Producción:** https://eterna-water.vercel.app
+- **Stack:** Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · next-intl (ES/EN)
+
+## Desarrollo local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estructura
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/[locale]/` — rutas de cada módulo (Tienda, ETERNA Care, Filtros y Refacciones, Mi ETERNA, Soporte, Universo ETERNA, Configuración).
+- `src/components/` — componentes de UI, agrupados por módulo cuando aplica (ej. `components/store/`).
+- `src/i18n/` — configuración de next-intl (rutas `/es` y `/en`).
+- `messages/es.json` / `messages/en.json` — todas las cadenas de texto de la app.
+- `src/app/globals.css` — tokens de diseño (colores, radios) centralizados; la paleta actual es un placeholder listo para reemplazarse por la identidad de marca oficial.
 
-## Learn More
+## Deploy
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+El proyecto está conectado a Vercel vía GitHub: cada push a `claude/eterna-water-app-spec-ornk4z` genera un deploy automático a producción.
