@@ -22,7 +22,53 @@
     "description": "Compra tu equipo ideal y descubre el configurador inteligente.",
     "models": "Modelos",
     "configurator": "Configurador",
-    "payment": "Métodos de pago"
+    "payment": "Métodos de pago",
+    "priceTbd": "Precio: próximamente",
+    "ctaSoon": "Próximamente",
+    "modelList": {
+      "m1012": {
+        "name": "Modelo 10–12 L/día",
+        "idealFor": "Ideal para 1–2 personas"
+      },
+      "m20": {
+        "name": "Modelo 20 L/día",
+        "idealFor": "Ideal para 3–4 personas"
+      },
+      "m50": {
+        "name": "Modelo 50 L/día",
+        "idealFor": "Ideal para hogares grandes u oficinas pequeñas"
+      },
+      "m100": {
+        "name": "Modelo 100 L/día",
+        "idealFor": "Ideal para negocios y consumo alto"
+      },
+      "future": {
+        "name": "Modelos futuros",
+        "idealFor": "Nuevas capacidades, próximamente"
+      }
+    },
+    "configuratorForm": {
+      "people": "Personas en casa",
+      "city": "Ciudad",
+      "cityPlaceholder": "Ej. Ciudad de México",
+      "humidity": "Humedad promedio",
+      "humidityLow": "Baja (menos de 40%)",
+      "humidityMid": "Media (40–60%)",
+      "humidityHigh": "Alta (más de 60%)",
+      "dailyConsumption": "Consumo diario deseado en litros (opcional)",
+      "submit": "Calcular recomendación",
+      "resultTitle": "Te recomendamos el",
+      "resultDisclaimer": "Esta es una estimación general basada en tus respuestas; los datos técnicos exactos se ajustarán con las especificaciones oficiales de cada modelo.",
+      "resultOverCapacity": "Tu necesidad supera nuestros modelos actuales. Contáctanos en Soporte Técnico para una solución a la medida."
+    },
+    "paymentMethods": {
+      "card": "Tarjeta",
+      "mercadoPago": "Mercado Pago",
+      "paypal": "PayPal",
+      "transfer": "Transferencia",
+      "installments": "Meses sin intereses",
+      "financing": "Financiamiento ETERNA (próximamente)"
+    }
   },
   "care": {
     "title": "Suscripción ETERNA Care",

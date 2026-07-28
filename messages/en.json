@@ -22,7 +22,53 @@
     "description": "Buy your ideal device and try the smart configurator.",
     "models": "Models",
     "configurator": "Configurator",
-    "payment": "Payment methods"
+    "payment": "Payment methods",
+    "priceTbd": "Price: coming soon",
+    "ctaSoon": "Coming soon",
+    "modelList": {
+      "m1012": {
+        "name": "Model 10–12 L/day",
+        "idealFor": "Ideal for 1–2 people"
+      },
+      "m20": {
+        "name": "Model 20 L/day",
+        "idealFor": "Ideal for 3–4 people"
+      },
+      "m50": {
+        "name": "Model 50 L/day",
+        "idealFor": "Ideal for large households or small offices"
+      },
+      "m100": {
+        "name": "Model 100 L/day",
+        "idealFor": "Ideal for businesses and high consumption"
+      },
+      "future": {
+        "name": "Future models",
+        "idealFor": "New capacities, coming soon"
+      }
+    },
+    "configuratorForm": {
+      "people": "People at home",
+      "city": "City",
+      "cityPlaceholder": "E.g. Mexico City",
+      "humidity": "Average humidity",
+      "humidityLow": "Low (under 40%)",
+      "humidityMid": "Medium (40–60%)",
+      "humidityHigh": "High (over 60%)",
+      "dailyConsumption": "Desired daily consumption in liters (optional)",
+      "submit": "Calculate recommendation",
+      "resultTitle": "We recommend the",
+      "resultDisclaimer": "This is a general estimate based on your answers; exact technical figures will be adjusted once each model's official specs are confirmed.",
+      "resultOverCapacity": "Your need exceeds our current models. Contact us through Technical Support for a custom solution."
+    },
+    "paymentMethods": {
+      "card": "Card",
+      "mercadoPago": "Mercado Pago",
+      "paypal": "PayPal",
+      "transfer": "Bank transfer",
+      "installments": "Interest-free installments",
+      "financing": "ETERNA Financing (coming soon)"
+    }
   },
   "care": {
     "title": "ETERNA Care Subscription",
