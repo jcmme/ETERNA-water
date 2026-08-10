@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { navItems } from "@/lib/nav-items";
+import { WaterButton } from "@/components/ui/water-button";
 
 export default async function HomePage({
   params,
@@ -26,6 +27,9 @@ function HomeContent() {
         <p className="mt-2 max-w-xl text-[var(--color-muted)]">
           {t("home.subtitle")}
         </p>
+        <Link href="/store" className="mt-5 inline-block">
+          <WaterButton label={t("home.cta")} />
+        </Link>
       </section>
 
       <section className="grid grid-cols-2 gap-3 md:grid-cols-4">

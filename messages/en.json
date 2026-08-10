@@ -15,7 +15,8 @@
   "home": {
     "title": "Welcome to ETERNA Water",
     "subtitle": "Manage your device, your filters, and your support in one place.",
-    "placeholderNotice": "This section is under construction."
+    "placeholderNotice": "This section is under construction.",
+    "cta": "Explore our devices"
   },
   "store": {
     "title": "ETERNA Store",

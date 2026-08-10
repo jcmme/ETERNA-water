@@ -1,6 +1,7 @@
 import { Droplets } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { StoreModelId } from "@/lib/store-models";
+import { WaterButton } from "@/components/ui/water-button";
 
 export function ModelCard({
   modelId,
@@ -34,13 +35,12 @@ export function ModelCard({
         <span className="text-sm text-[var(--color-muted)]">
           {t("priceTbd")}
         </span>
-        <button
-          type="button"
-          disabled
-          className="cursor-not-allowed rounded-full border border-[var(--color-border)] px-3 py-1.5 text-sm font-medium text-[var(--color-muted)]"
-        >
-          {t("ctaSoon")}
-        </button>
+        <WaterButton
+          label={t("ctaSoon")}
+          paddingX={16}
+          paddingY={8}
+          rounded={999}
+        />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import { Check, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { CarePlan } from "@/lib/care-plans";
+import { WaterButton } from "@/components/ui/water-button";
 
 export function PlanCard({ plan }: { plan: CarePlan }) {
   const t = useTranslations("care");
@@ -43,13 +44,12 @@ export function PlanCard({ plan }: { plan: CarePlan }) {
         <span className="text-sm text-[var(--color-muted)]">
           {t("priceTbd")}
         </span>
-        <button
-          type="button"
-          disabled
-          className="cursor-not-allowed rounded-full border border-[var(--color-border)] px-3 py-1.5 text-sm font-medium text-[var(--color-muted)]"
-        >
-          {t("ctaSoon")}
-        </button>
+        <WaterButton
+          label={t("ctaSoon")}
+          paddingX={16}
+          paddingY={8}
+          rounded={999}
+        />
       </div>
     </div>
   );
