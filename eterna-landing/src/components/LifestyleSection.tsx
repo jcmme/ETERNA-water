@@ -3,7 +3,7 @@ import { ImagePlaceholder } from "./ImagePlaceholder";
 export function LifestyleSection() {
   return (
     <section>
-      <div className="relative">
+      <div className="relative bg-ink text-white">
         <ImagePlaceholder
           label="Foto lifestyle — Cocina"
           dark
@@ -18,7 +18,7 @@ export function LifestyleSection() {
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative bg-ink text-white">
         <ImagePlaceholder
           label="Foto — Botella llenándose de agua"
           dark
