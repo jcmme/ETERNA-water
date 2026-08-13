@@ -1,4 +1,4 @@
-import { Droplet, Package, ShieldCheck } from "lucide-react";
+import { Droplet, Package, ShieldCheck, SlidersHorizontal } from "lucide-react";
 
 const FEATURES = [
   {
@@ -37,6 +37,15 @@ export function TechSection() {
               <p className="mt-3 text-ink/60">{text}</p>
             </div>
           ))}
+        </div>
+
+        <div id="personalizacion" className="mt-24">
+          <SlidersHorizontal className="h-8 w-8 text-accent" strokeWidth={1.5} />
+          <h3 className="mt-6 text-xl font-bold">Personalización Total</h3>
+          <p className="mt-3 max-w-md text-ink/60">
+            pH ajustable entre 7.0 y 8.5. Agua fría y caliente. Perfil mineral
+            configurable. 127V compatible doméstico.
+          </p>
         </div>
       </div>
     </section>
