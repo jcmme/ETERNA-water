@@ -6,6 +6,7 @@ import { StatsSection } from "@/components/StatsSection";
 import { AnatomySection } from "@/components/AnatomySection";
 import { LifestyleSection } from "@/components/LifestyleSection";
 import { ModelsSection } from "@/components/ModelsSection";
+import { CheckoutSection } from "@/components/CheckoutSection";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <AnatomySection />
         <LifestyleSection />
         <ModelsSection />
+        <CheckoutSection />
       </main>
       <Footer />
     </>
