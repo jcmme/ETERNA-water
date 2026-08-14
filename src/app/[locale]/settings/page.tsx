@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export default async function SettingsPage({
   params,
@@ -28,6 +29,12 @@ function SettingsContent() {
             {t("language")}
           </span>
           <LanguageSwitcher />
+        </div>
+        <div className="flex items-center justify-between gap-4 p-4">
+          <span className="text-sm font-medium text-[var(--color-foreground)]">
+            {t("appearance")}
+          </span>
+          <ThemeToggle />
         </div>
         <div className="flex items-center justify-between gap-4 p-4">
           <span className="text-sm font-medium text-[var(--color-foreground)]">

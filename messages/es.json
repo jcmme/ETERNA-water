@@ -211,6 +211,11 @@
   "settings": {
     "title": "Configuración",
     "language": "Idioma",
+    "appearance": "Apariencia",
+    "theme": {
+      "light": "Claro",
+      "dark": "Oscuro"
+    },
     "notifications": "Notificaciones",
     "account": "Cuenta y privacidad"
   }

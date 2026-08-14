@@ -88,7 +88,7 @@ export function Configurator() {
 
         <button
           type="submit"
-          className="flex items-center justify-center gap-2 rounded-full bg-[var(--color-brand-500)] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[var(--color-brand-600)] sm:col-span-2"
+          className="flex items-center justify-center gap-2 rounded-full bg-[var(--color-brand-500)] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:brightness-90 sm:col-span-2"
         >
           <Sparkles size={16} />
           {t("configuratorForm.submit")}

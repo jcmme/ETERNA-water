@@ -211,6 +211,11 @@
   "settings": {
     "title": "Settings",
     "language": "Language",
+    "appearance": "Appearance",
+    "theme": {
+      "light": "Light",
+      "dark": "Dark"
+    },
     "notifications": "Notifications",
     "account": "Account & privacy"
   }
