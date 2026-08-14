@@ -1,34 +1,33 @@
 @import "tailwindcss";
 
 /*
- * Design tokens — PLACEHOLDER palette.
- * These values are generic and meant to be swapped out once ETERNA's
- * official brand guidelines (colors, typography) are provided. Every
- * component should reference these tokens rather than hardcoded colors,
- * so the whole app can be re-skinned by editing only this block.
+ * Design tokens — matches the eternawater.mx brand (neutral black/white
+ * with a sky-blue accent). Every component references these tokens rather
+ * than hardcoded colors, so the whole app can be re-skinned by editing
+ * only this block.
  */
 :root {
-  --color-brand-50: #eff9fb;
-  --color-brand-100: #d7f0f4;
-  --color-brand-200: #b3e2ea;
-  --color-brand-300: #82cdda;
-  --color-brand-400: #4bafc2;
-  --color-brand-500: #2f92a7;
-  --color-brand-600: #29758a;
-  --color-brand-700: #275f71;
-  --color-brand-800: #274e5e;
-  --color-brand-900: #244250;
+  --color-brand-50: #fafafa;
+  --color-brand-100: #f5f5f5;
+  --color-brand-200: #e5e5e5;
+  --color-brand-300: #d4d4d4;
+  --color-brand-400: #a3a3a3;
+  --color-brand-500: #737373;
+  --color-brand-600: #525252;
+  --color-brand-700: #404040;
+  --color-brand-800: #262626;
+  --color-brand-900: #171717;
 
-  --color-accent-500: #5ad6a8;
+  --color-accent-500: #0ea5e9;
 
   --color-background: #ffffff;
-  --color-surface: #f7fafb;
-  --color-foreground: #16222a;
-  --color-muted: #5c7078;
-  --color-border: #e2ebee;
+  --color-surface: #fafafa;
+  --color-foreground: #0a0a0a;
+  --color-muted: #737373;
+  --color-border: #e5e5e5;
 
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
   --radius-card: 1rem;
 }
@@ -58,11 +57,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: #0f191e;
-    --color-surface: #16232a;
-    --color-foreground: #eef5f7;
-    --color-muted: #93a7ae;
-    --color-border: #223038;
+    --color-background: #0a0a0a;
+    --color-surface: #171717;
+    --color-foreground: #fafafa;
+    --color-muted: #a3a3a3;
+    --color-border: #262626;
   }
 }
 

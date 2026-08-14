@@ -9,32 +9,32 @@ import { useEffect, useRef, type CSSProperties } from "react";
 
 const DEFAULTS = {
   label: "ETERNA",
-  textColor: "#1c3743",
+  textColor: "#0a0a0a",
   paddingX: 32,
   paddingY: 16,
   rounded: 100,
   glass: {
-    tint: "rgba(43, 122, 143, 0.10)",
+    tint: "rgba(10, 10, 10, 0.06)",
     blur: 28,
     frost: 55,
   },
   waterAmount: 62,
-  waterColor: "#2f92a7",
+  waterColor: "#0ea5e9",
   border: true,
   borderOptions: {
-    color: "rgba(41, 117, 138, 0.35)",
+    color: "rgba(23, 23, 23, 0.18)",
     stroke: 1,
   },
   shadow: true,
   shadowOptions: {
-    color: "#244250",
+    color: "#0a0a0a",
     intensity: 22,
   },
   press: true,
 };
 
 const DEFAULT_FONT: CSSProperties = {
-  fontFamily: "var(--font-geist-sans), system-ui, sans-serif",
+  fontFamily: "var(--font-inter), system-ui, sans-serif",
   fontSize: 15,
   fontWeight: 600,
   letterSpacing: "-0.01em",
@@ -156,7 +156,7 @@ function parseColor(color: string): [number, number, number, number] {
       parts[3] === undefined ? 1 : parts[3],
     ];
   }
-  return [47, 146, 167, 1];
+  return [14, 165, 233, 1];
 }
 
 const clampKick = (value: number) =>

@@ -3,7 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { storeModels } from "@/lib/store-models";
 import { ModelCard } from "@/components/store/model-card";
 import { Configurator } from "@/components/store/configurator";
-import { PaymentMethods } from "@/components/store/payment-methods";
+import { PaymentCarousel } from "@/components/store/payment-carousel";
 
 export default async function StorePage({
   params,
@@ -53,7 +53,7 @@ function StoreContent() {
         <h2 className="text-lg font-semibold text-[var(--color-foreground)]">
           {t("payment")}
         </h2>
-        <PaymentMethods />
+        <PaymentCarousel />
       </section>
     </div>
   );
